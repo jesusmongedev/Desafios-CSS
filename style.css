@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+html { 
+    font-size: 62.5%;
+}
+
+.main-container {
+    background-color: #aacfe2;
+    width: 90%;
+    min-height: 510px;
+    margin: 0 auto;
+    border: 2px black solid;
+    position: relative;
+    top: 5rem;
+}
+h1 {
+    text-align: center;
+}
+
+.main-container__title {
+    font-size: 2.4rem;
+    font-weight: 1000;
+    background-color: #daeefe;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+    position: relative;
+    bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 351px;
+    height: 212px;
+    border: 2px black solid;
+}
+
+figcaption {
+    font-family: 'Times New Roman';
+    font-size: 1.2rem;
+    font-weight: 500px;
+    text-align: center;
+    position: relative;
+    top: 2.5px;
+}
+figcaption a {
+    text-decoration: none;
+    color: black
+}
+span {
+    font-weight: bold;
+}
+.main-container__parrafo1 {
+    background-color: #dde8f0;
+    border: 2px black solid;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: 15px;
+    font-size: 1.8rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 1000;
+    background-color: #daeefe;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+    position: relative;
+    top: 30px;
+}
+
+.main-container__content {
+    background-color: #dde8f0;
+    border: 2px black solid;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: 45px;
+    font-size: 1.8rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.footer {
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color:#daeefe;
+    border: 2px black solid;
+    position: relative;
+    top: 59.7px;
+}
